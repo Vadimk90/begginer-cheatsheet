@@ -1,0 +1,75 @@
+* {
+    
+    text-align: center;
+    color: white;
+}
+
+.main_header th, thead tr {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+}
+
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_960_720.jpg");
+    
+}
+
+table {
+   max-width: fit-content;
+   min-width: min-content;
+   margin: 0 auto;
+   border: 1px solid whitesmoke;
+}   
+
+td, th {
+    padding: 7px 10px;
+    border: 1px solid whitesmoke;
+}
+
+.color_red {
+    color: red;
+}
+
+.bcolor_red {
+    background-color: red !important; 
+}
+
+.fsize_40 {
+    font-size: 30px;
+}
+
+.fweight_bold {
+    font-weight:bold;
+}
+
+.fstyle_italic {
+    font-style: italic;
+}
+
+.talign_right {
+    text-align: right;
+}
+
+.talign_left {
+    text-align: left;
+}
+
+.talign_center {
+    text-align: center;
+}
+
+.lspacing_5 {
+    letter-spacing: 5px;
+}
+
+.wspacing_15 {
+    word-spacing: 15px;
+}
+
+.ttransform_uppercase {
+    text-transform: uppercase;
+}
+
+.ttransform_lowercase {
+    text-transform: lowercase;
+}
